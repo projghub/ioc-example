@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!--This file represents the results of running a test suite-->
+<test-results name="C:\Users\billy\Documents\GitHub\ioc-example\IocExample\IocExample.Tests\bin\Debug\IocExample.Tests.dll" total="7" errors="0" failures="0" not-run="0" inconclusive="0" ignored="0" skipped="0" invalid="0" date="2013-07-05" time="13:00:38">
+  <environment nunit-version="2.6.2.12296" clr-version="2.0.50727.4927" os-version="Microsoft Windows NT 6.1.7600.0" platform="Win32NT" cwd="C:\Users\billy\Documents\GitHub\ioc-example\IocExample\IocExample\packages\NUnit.Runners.2.6.2\tools" machine-name="BILLY-PC" user="billy" user-domain="billy-PC" />
+  <culture-info current-culture="en-US" current-uiculture="en-US" />
+  <test-suite type="Assembly" name="C:\Users\billy\Documents\GitHub\ioc-example\IocExample\IocExample.Tests\bin\Debug\IocExample.Tests.dll" executed="True" result="Success" success="True" time="0.040" asserts="0">
+    <results>
+      <test-suite type="Namespace" name="IocExample" executed="True" result="Success" success="True" time="0.037" asserts="0">
+        <results>
+          <test-suite type="Namespace" name="Tests" executed="True" result="Success" success="True" time="0.034" asserts="0">
+            <results>
+              <test-suite type="TestFixture" name="IocExampleTests" executed="True" result="Success" success="True" time="0.030" asserts="0">
+                <results>
+                  <test-case name="IocExample.Tests.IocExampleTests.CanCreateAContainer" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                  <test-case name="IocExample.Tests.IocExampleTests.CanRegisterAndResolveTypes" executed="True" result="Success" success="True" time="0.002" asserts="1" />
+                  <test-case name="IocExample.Tests.IocExampleTests.ContainerDefaultIsTransient" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                  <test-case name="IocExample.Tests.IocExampleTests.DuplicateTypeThrowsException" executed="True" result="Success" success="True" time="0.001" asserts="0" />
+                  <test-case name="IocExample.Tests.IocExampleTests.SingletonReturnsSameInstance" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                  <test-case name="IocExample.Tests.IocExampleTests.TransientReturnsDifferentInstance" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                  <test-case name="IocExample.Tests.IocExampleTests.UnknownTypeThrowsException" executed="True" result="Success" success="True" time="0.001" asserts="0" />
+                </results>
+              </test-suite>
+            </results>
+          </test-suite>
+        </results>
+      </test-suite>
+    </results>
+  </test-suite>
+</test-results>
